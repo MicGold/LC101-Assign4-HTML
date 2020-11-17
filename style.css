@@ -1,0 +1,14 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 100%;
+    border: 6px solid #333;
+    transition: transform 250ms;
+}
+
+imag:hover {
+    transform: translateY(-5px);
+}
