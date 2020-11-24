@@ -1,3 +1,7 @@
+body {
+    background-color: #E7F2F8;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -17,9 +21,10 @@ imag:hover {
 .familyMember {
     list-style-type: none;
     margin: 10px 0;
-    background-color: salmon;
+    background-color: #EFE7BC;
     border-radius: 4px;
     padding: 10px;
+    border: 1px solid salmon;
 }
 
 /*.subscribe {
@@ -44,5 +49,13 @@ input {
     margin-bottom: 50px;
     text-align: center;
     font-weight: bold;
-    border: 3px dashed rgb(58, 53, 136);
+    border: 3px dashed #FFA384;
+    background-color: #74BDCB;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.centered {
+    margin-bottom: 0px;
+    text-align: center;
 }
