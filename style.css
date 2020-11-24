@@ -1,6 +1,7 @@
-body {
+.container {
     max-width: 800px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 img {
@@ -11,4 +12,37 @@ img {
 
 imag:hover {
     transform: translateY(-5px);
+}
+
+.familyMember {
+    list-style-type: none;
+    margin: 10px 0;
+    background-color: salmon;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/*.subscribe {
+
+}*/
+
+label,
+input {
+    margin-block: 69;
+}
+
+/*label {
+
+}*/
+
+.fancy {
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px dashed rgb(58, 53, 136);
 }

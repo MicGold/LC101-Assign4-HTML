@@ -2,25 +2,26 @@
 <html>
         <head>
             <title>HTML Assignment 4</title>
-            <link rel="stylesheet" type= "text/css" href = "style.css">
+            <link rel="stylesheet" type= "text/css" href = "style.css" />
         </head>
         <body>
+            <div class="container">
             <!-- useful reference info: http://www.w3schools.com/tags/default.asp -->
-            <header>
-                <h1>The Story of Dallas & Poirot</h1>
+            <header class="header">
+                <h1 class="fancy">The Story of Dallas & Poirot</h1>
                 <p><tag style = "font-size: larger">A journal of two detective kittens and their daily antics.</tag></p>
             </header>
             <main>
                 <ul>The Family:
-                    <li>Michaela: the food giver and scratchies provider. 
+                    <li class="familyMember">Michaela: the food giver and scratchies provider. 
                         She doesn't fully believe she's an adult quite yet,
                         but she's doing her best for these two little floof balls.
                     </li>
-                    <li>Dallas: The smallest, but also the bravest and boldest. 
+                    <li class="familyMember">Dallas: The smallest, but also the bravest and boldest. 
                         She hates to be picked up or moved against her will, 
                         but she'll love to the fullest once you win her trust.
                     </li>
-                    <li>Poirot: The craziest and the cuddliest. 
+                    <li class="familyMember">Poirot: The craziest and the cuddliest. 
                         He literally runs up the walls at times, 
                         but he's also quick to run up and give a loving head butt to a new friend.
                     </li>
@@ -38,8 +39,16 @@
                 <!-- add images by uploading to dropbox, explained further in chapter -->
             </main>
             <footer>
+                <form class="subscribe">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" />
+                    <button>Subscribe!</button> 
+                </form>
                 <!-- use HTML entity? potentially copyright, or other options, see http://www.w3schools.com/html/html_entities.asp-->
                 <h3>And the Journey Continues...</h3>
             </footer>
+            </div>
         </body>
 </html>
