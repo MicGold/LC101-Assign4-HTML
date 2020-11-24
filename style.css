@@ -9,13 +9,9 @@ body {
 }
 
 img {
-    border-radius: 100%;
-    border: 6px solid #333;
-    transition: transform 250ms;
-}
-
-imag:hover {
-    transform: translateY(-5px);
+    border-radius: 5px;
+    width: 275px;
+    height: 300px;
 }
 
 .familyMember {
@@ -56,6 +52,8 @@ input {
 }
 
 .centered {
-    margin-bottom: 0px;
+    display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto
 }
